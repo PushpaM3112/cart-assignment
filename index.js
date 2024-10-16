@@ -1,9 +1,9 @@
-const express = require('express');
-const cors = require('cors');
-const { resolve } = require('path');
+let express = require('express');
+let cors = require('cors');
+let { resolve } = require('path');
 
-const app = express();
-const port = 3000;
+let app = express();
+let port = 3000;
 app.use(cors());
 app.use(express.static('static'));
 
